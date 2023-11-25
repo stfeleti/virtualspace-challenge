@@ -2,9 +2,13 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Merge k Sorted Lists", "Merge k Sorted Lists", "{FE37D751-A431-4994-A885-10C48910BBE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Runner", "ConsoleApp.Runner\ConsoleApp.Runner.csproj", "{C5F9470F-49A2-4483-A9A9-02560EC39274}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppMergeKList", "ConsoleAppMergeKList\ConsoleAppMergeKList.csproj", "{C5F9470F-49A2-4483-A9A9-02560EC39274}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeKLists", "MergeKLists\MergeKLists.csproj", "{536F6DC1-D081-46B1-9F86-751993097109}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeKListsTests", "MergeKListsTests\MergeKListsTests.csproj", "{536F6DC1-D081-46B1-9F86-751993097109}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Crawler Multithreaded", "Web Crawler Multithreaded", "{0A3410DA-56FE-46A2-AF18-338C2DA263FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web Crawler Multithreaded ConsoleApp", "Web Crawler Multithreaded ConsoleApp\Web Crawler Multithreaded ConsoleApp.csproj", "{23F443D5-E262-48D5-AE1D-88A75745C46A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,6 +18,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C5F9470F-49A2-4483-A9A9-02560EC39274} = {FE37D751-A431-4994-A885-10C48910BBE5}
 		{536F6DC1-D081-46B1-9F86-751993097109} = {FE37D751-A431-4994-A885-10C48910BBE5}
+		{23F443D5-E262-48D5-AE1D-88A75745C46A} = {0A3410DA-56FE-46A2-AF18-338C2DA263FC}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C5F9470F-49A2-4483-A9A9-02560EC39274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +29,9 @@ Global
 		{536F6DC1-D081-46B1-9F86-751993097109}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{536F6DC1-D081-46B1-9F86-751993097109}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{536F6DC1-D081-46B1-9F86-751993097109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23F443D5-E262-48D5-AE1D-88A75745C46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F443D5-E262-48D5-AE1D-88A75745C46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F443D5-E262-48D5-AE1D-88A75745C46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F443D5-E262-48D5-AE1D-88A75745C46A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

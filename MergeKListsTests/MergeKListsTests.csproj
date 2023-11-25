@@ -7,6 +7,7 @@
 
         <IsPackable>false</IsPackable>
         <IsTestProject>true</IsTestProject>
+        <RootNamespace>MergeKLists</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -18,7 +19,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ConsoleApp.Runner\ConsoleApp.Runner.csproj" />
+      <ProjectReference Include="..\ConsoleAppMergeKList\ConsoleAppMergeKList.csproj" />
     </ItemGroup>
 
 </Project>
